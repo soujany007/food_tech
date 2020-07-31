@@ -1,0 +1,52 @@
+/* Create your style on here */
+.errorMsg p { color:#ff0000;}
+.custom_alert{ margin:15px;}
+.initialChar{
+    font-size: 20px;
+    background: deepskyblue;
+    border-radius: 100%;
+    text-align: center;
+    color: black;
+    height: 35px;
+    width: 35px;
+    padding-top: 3px;}
+.initialCharLeft{
+    font-size: 28px;
+    background: deepskyblue;
+    border-radius: 100%;
+    text-align: center;
+    color: black;
+    height: 54px;
+    width: 54px;
+    padding-top: 15px;}
+    .domain_logo{
+        width: 220px;
+    height: 100px;
+    }
+
+
+ .ui-autocomplete {
+    position: absolute;
+    z-index: 1000;
+    cursor: default;
+    padding: 0;
+    margin-top: 2px;
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid #ccc
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+       -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.ui-autocomplete > li {
+  padding: 3px 20px;
+}
+.ui-autocomplete > li.ui-state-focus {
+  background-color: #DDD;
+}
+.ui-helper-hidden-accessible {
+  display: none;
+}
